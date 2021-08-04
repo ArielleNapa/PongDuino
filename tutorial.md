@@ -31,6 +31,8 @@ Make sure you installed Python on your computer, otherwise you can install now u
 Once you have both on your computer, open PyCharm and create a new project and name it "main".
 Copy the codes from the files with the end ".py"
 
+***Rotation to the left moves the player down, and rotation to the right moves the player up***
+
 This project will consist of C++, PHP, SQL, Python code:
 •	 C++ – Maintaining connection from the motion sensor to the server while sending data.
 •	PHP - Receives “GET http” requests and updates the MySQL database containing current players positions corresponding to the accelerometer information.
