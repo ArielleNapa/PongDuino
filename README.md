@@ -6,6 +6,7 @@ How it works:
 Playable by 2 players with wireless controllers(2 Arduino kit). You must score 10 "goals" to win, and the game ends when one of the players reaches this goal.
 The game will start after each player has connected to the server and we run the Python program.  When playing, the player can see his position in relation to the ball (i.e., any movement of the player impacts the movement of the player's board). 
 The corresponding objectives include:
+
 •	 Using two 3D accelerometers, transfer the motions of the hand to the paddle on the computer screen.
 •	Use Wi-Fi shield to display game scores and results on the computer screen.
 •	Design another operating method with the push buttons to control the starting of the game.
