@@ -8,11 +8,18 @@ The game will start after each player has connected to the server and we run the
 The corresponding objectives include:
 
 •	 Using two 3D accelerometers, transfer the motions of the hand to the paddle on the computer screen.
+
 •	Use Wi-Fi shield to display game scores and results on the computer screen.
+
 •	Design another operating method with the push buttons to control the starting of the game.
+
 •	Web Editor - Sends "GET HTTP" requests that contain relevant accelerometer information repeatedly to the local server. 
+
 •	PHP code - Responds to "GET http" requests and updates the MySQL database containing players' positions based on accelerometer data.
+
 •	An application called XAMPP - Stands for cross-platform, MySQL, PHP - is downloaded and installed on the computer. It allows us to create a web server locally.
+
 •	SQL - We created a MySQL table that was monitored using XAMPP. By using the command prompt and running "SELECT * FROM pong_data;" we can see how each board reacts to the sensor.
+
 •	Python - (main.py) The program that runs the game. Monitoring after each sensor reaction and moving the players within the game.
 
