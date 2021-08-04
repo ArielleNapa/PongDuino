@@ -1,1 +1,22 @@
+cd C:\xampp\mysql\bin
 
+mysqladmin -u root password your-root-password
+
+mysql.exe -u root -p (type your-root-password)
+
+CREATE USER 'Arduino'@'localhost' IDENTIFIED BY 'ArduinoGetStarted.com';
+GRANT ALL PRIVILEGES ON *.* TO 'Arduino'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+
+CREATE DATABASE db_arduino CHARACTER SET = 'utf8' COLLATE = 'utf8_general_ci';
+
+USE db_arduino;
+
+CREATE TABLE pong_game_data (
+	temp_id    INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	P1 FLOAT DEFAULT 0.00,
+	P2 FLOAT DEFAULT 0.00,
+	STARTED1 INT DEFAULT 0,
+	STARTED2 INT DEFAULT 0,
+	PRIMARY KEY (temp_id)
+);
